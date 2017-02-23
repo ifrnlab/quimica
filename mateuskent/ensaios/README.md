@@ -5,4 +5,4 @@
 * Matriz de rotação
 * Queda e subida de um corpo
 * Lançamento oblíquo de um corpo
-* Elipse inclinada
+* [Elipse inclinada](elipse-inclinada.py)
