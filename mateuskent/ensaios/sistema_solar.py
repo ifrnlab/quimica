@@ -23,7 +23,7 @@ class Planeta(Astro):
         self.posicao_orbita = posicao_orbita
         
 #       Esta parte comentada ainda não funciona adequadamente, pois não sei mudar o
-#       tamanho do objeto quando sua forma é uma imagem.GIF.
+#       tamanho do objeto quando sua forma é uma imagem.GIF. 
 
         '''
         tela.register_shape(nome+'.gif')
