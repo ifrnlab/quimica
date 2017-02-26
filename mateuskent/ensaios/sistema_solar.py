@@ -39,6 +39,7 @@ class Planeta(Astro):
         self.hideturtle()
 
     def translacao(self, angulo):
+        # Se for o planeta Plutão, sua órbita tem que ser uma elipse inclinada em relação ao Sol.
         if self.posicao_orbita == 9:
             a = self.posicao_orbita * raio
             b = a/2        
@@ -53,6 +54,8 @@ class Planeta(Astro):
                 self.down()
                 self.showturtle()  
             self.setpos(x,y)
+
+        # Os outros planetas não têm uma órbita inclinada em relação ao Sol.
         else:
             a = self.posicao_orbita * raio
             b = a/2        
