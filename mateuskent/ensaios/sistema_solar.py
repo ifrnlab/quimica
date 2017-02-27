@@ -21,16 +21,6 @@ class Planeta(Astro):
     def __init__(self, nome, tamanho, cor, posicao_orbita):
         Astro.__init__(self, nome, tamanho, cor)
         self.posicao_orbita = posicao_orbita
-        
-#       Esta parte comentada ainda não funciona adequadamente, pois não sei mudar o
-#       tamanho do objeto quando sua forma é uma imagem.GIF. 
-
-        '''
-        tela.register_shape(nome+'.gif')
-        self.shape(nome+'.gif')
-        self.resizemode("user")
-        '''
-        
         self.shape('circle')
         self.color(cor)
         self.shapesize(tamanho, tamanho,0)
@@ -41,6 +31,7 @@ class Planeta(Astro):
     def translacao(self, angulo):
         # Se for o planeta Plutão, sua órbita tem que ser uma elipse inclinada em relação ao Sol.
         if self.posicao_orbita == 9:
+            angulo *= (10 - self.posicao_orbita)
             a = self.posicao_orbita * raio
             b = a/2        
             r = (a * b)/sqrt(a**2*sin(pi*angulo/180)**2 + b**2*cos(pi*angulo/180)**2)            
@@ -57,6 +48,7 @@ class Planeta(Astro):
 
         # Os outros planetas não têm uma órbita inclinada em relação ao Sol.
         else:
+            angulo *= (10 - self.posicao_orbita)
             a = self.posicao_orbita * raio
             b = a/2        
             r = (a * b)/sqrt(a**2*sin(pi*angulo/180)**2 + b**2*cos(pi*angulo/180)**2)            
@@ -80,20 +72,22 @@ mercurio = Planeta('Mercúrio', 0.3, 'gray', 1)
 venus = Planeta('Vênus', 0.5, 'darkorange', 2)
 terra = Planeta('Terra', 0.6, 'blue', 3)
 marte = Planeta('Marte', 0.4, 'red', 4)
-jupiter = Planeta('Júpiter', 1.0, 'sandybrown', 5)
+jupiter = Planeta('Júpiter', 1, 'sandybrown', 5)
 saturno = Planeta('Saturno', 0.9, 'goldenrod', 6)
 urano = Planeta('Urano', 0.8, 'mediumseagreen', 7)
 netuno = Planeta('Netuno', 0.7, 'steelblue', 8)
 plutao = Planeta('Plutão', 0.1, 'peachpuff', 9)
-
+i = 0
 while True:
-    for i in range(361):    
-        mercurio.translacao(i*10)
-        venus.translacao(i*9)
-        terra.translacao(i*8)
-        marte.translacao(i*5)
-        jupiter.translacao(i*4)
-        saturno.translacao(i*3)
-        urano.translacao(i*2)
-        netuno.translacao(i*1)
-        plutao.translacao(i)
+    mercurio.translacao(i)
+    venus.translacao(i)
+    terra.translacao(i)
+    marte.translacao(i)
+    jupiter.translacao(i)
+    saturno.translacao(i)
+    urano.translacao(i)
+    netuno.translacao(i)
+    plutao.translacao(i)
+    if i == 360:
+        i = 0
+    i += 1
