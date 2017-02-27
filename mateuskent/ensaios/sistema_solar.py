@@ -8,7 +8,6 @@ class Astro(Turtle):
         self.nome = nome
         self.tamanho = tamanho
         self.cor = cor
-        self.shapesize(tamanho, tamanho)
 
 class Estrela(Astro):
     def __init__(self, nome, tamanho, cor):
@@ -63,8 +62,10 @@ class Planeta(Astro):
 
 
 tela = turtle.Screen()
-raio = 60
 tela.bgcolor('black')
+tela.title('Sistema Solar')
+
+raio = 60
 
 sol = Estrela('Sol',2,'gold')
 
@@ -77,6 +78,7 @@ saturno = Planeta('Saturno', 0.9, 'goldenrod', 6)
 urano = Planeta('Urano', 0.8, 'mediumseagreen', 7)
 netuno = Planeta('Netuno', 0.7, 'steelblue', 8)
 plutao = Planeta('Plutão', 0.1, 'peachpuff', 9)
+
 i = 0
 while True:
     mercurio.translacao(i)
