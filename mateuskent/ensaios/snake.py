@@ -28,8 +28,6 @@ caneta.up()
 caneta.setposition(-290,310)
 caneta.write('Pontuação: 0', False, align='left', font=('Times', 14, 'normal'))
 
-
-
 # Criando a turtle/vetor cobra.
 cobra = []
 cobra[0:0] = [Turtle()]
@@ -131,7 +129,8 @@ while velocidade != 0:
         cobra[-1:-1] = [cobra[0].clone()]
         cobra[-1].setposition(x,y)
         pontuacao += 1
-
+        velocidade += 0.5
+        
         # Pontuação
         caneta.undo()
         caneta.hideturtle()
