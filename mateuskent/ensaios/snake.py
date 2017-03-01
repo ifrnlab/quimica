@@ -83,11 +83,13 @@ def colisao_corpo(t1,t2):
     else:
         return False
 
+#  Aumentar velocidade de movimento de cobra[]. 
 def acelerar():
     global velocidade
-    if velocidade < 1000:
-        velocidade += 1
+    if velocidade < 100:
+        velocidade += 0.5
 
+#  Diminuir velocidade de movimento de cobra[]. 
 def frear():
     global velocidade
     if velocidade > 0:
@@ -129,7 +131,8 @@ while velocidade != 0:
         cobra[-1:-1] = [cobra[0].clone()]
         cobra[-1].setposition(x,y)
         pontuacao += 1
-        velocidade += 0.5
+        if velocidade < 100:
+            velocidade += 0.5
         
         # Pontuação
         caneta.undo()
