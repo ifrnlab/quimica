@@ -1,0 +1,5 @@
+Resultados Esperados e Disseminação dos Resultados
+----------------------------------------------------
+
+Descrever os resultados esperados. Deve existir uma sintonia muito forte entre os resultados esperados e as metas. A divulgação das experiências bem sucedidas é de fundamental importância, tanto para a continuidade do projeto, quanto para o impacto positivo que o projeto pretende deixar na comunidade. As ações de disseminação dos resultados também precisam ser pensadas dentro de cada projeto. As propostas de divulgação poderão ser planejadas em nível local ou regional, incluindo os seguintes itens: Definição do que será objeto de divulgação (metodologias, técnicas, experiências); Definição dos produtos por meio dos quais será feita a divulgação (livros, artigos para revistas/jornais, vídeos, seminários, propriedades piloto); Definição das atividades de divulgação (palestras, reuniões); Definição da abrangência da divulgação (local ou regional); Definição do público que se pretende atingir (outras populações com características semelhantes às dos beneficiários do projeto, órgãos públicos, setores acadêmicos, organizações não governamentais, etc. 
+
