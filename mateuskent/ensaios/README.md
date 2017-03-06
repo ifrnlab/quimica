@@ -7,3 +7,4 @@
 * [Lançamento oblíquo de um corpo](lancamento.py)
 * [Elipse inclinada](elipse-inclinada.py)
 * [Sistema Solar](sistema_solar.py)
+* [Jogo da cobrinha](snake.py)
