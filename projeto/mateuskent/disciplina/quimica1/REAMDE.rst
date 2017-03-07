@@ -97,6 +97,7 @@ Bases Científico-Tecnológicas (Conteúdos)
   * Teoria modernas de ácido e base
   
 * Funções da Química orgânica
+
   * Introdução á química orgânica
   * Características gerais dos compostos orgânicos.
   * Classificação das cadeias carbônicas;
