@@ -88,7 +88,7 @@ Bases Científico-Tecnológicas (Conteúdos)
 
   * Introdução às funções inorgânicas
   * Soluções eletrolíticas e não eletrolíticas
-  * Ácidos: ácido segundo a teoria de ionização de Arrhenius, classificação,força, nomenclatura e fórmulas,.
+  * `Ácidos: ácido segundo a teoria de ionização de Arrhenius, classificação,força, nomenclatura e fórmulas <acidos/>`_
   * Bases ou hidróxidos: base segundo a teoria de dissociação de Arrhenius, classificação, força, nomenclatura e fórmulas.
   * Escala para medir o caráter ácido e básico: pH
   * Indicadores ácido e base
