@@ -96,6 +96,7 @@ Bases Científico-Tecnológicas (Conteúdos)
   * Lei de ação das massas
 
 * Equilíbrio químico molecular
+
   * Conceitos de reações reversíveis e de equilíbrio químico
   * Constantes de equilíbrio: Kc e Kp
   * Fatores que afetam o estado de equilíbrio: Princípio de Le Chatelier
@@ -110,6 +111,7 @@ Bases Científico-Tecnológicas (Conteúdos)
   * Solução tampão: aspectos qualitativos
   
 * Equilíbrio em sistemas heterogêneos
+
   * Constantes de equilíbrio para sistemas heterogêneos : Kc e Kp
   * Perturbação de equilíbrios heterogêneos
   * Produto de solubilidade
