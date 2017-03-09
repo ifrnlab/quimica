@@ -3309,4 +3309,239 @@ KeyboardInterrupt
 14
 10
 6
+>>> NE = 15
+>>> for s in range(2,10):
+	if s == 9:
+		j = 4
+		i = s - j
+		# nmax_es: número máximo de elétrons na subnível
+		# nes: número de elétrons na subnível
+		while j > 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+	elif s <= 5:
+		i = 1
+		j = s - i
+		while i < s:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			i += 1
+			j = s - i
+	else:
+		j = 4
+		i = s - j
+		while j >= 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+	if NE == 0:
+		break
+
+	
+2
+2
+6
+2
+3
+0
+>>> NE = 6
+>>> for s in range(2,10):
+	if s == 9:
+		j = 4
+		i = s - j
+		# nmax_es: número máximo de elétrons na subnível
+		# nes: número de elétrons na subnível
+		while j > 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+	elif s <= 5:
+		i = 1
+		j = s - i
+		while i < s:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			i += 1
+			j = s - i
+	else:
+		j = 4
+		i = s - j
+		while j >= 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+	if NE == 0:
+		break
+
+	
+2
+2
+2
+0
+>>> for s in range(2,10):
+	if s == 9:
+		j = 4
+		i = s - j
+		# nmax_es: número máximo de elétrons na subnível
+		# nes: número de elétrons na subnível
+		while j > 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	elif s <= 5:
+		i = 1
+		j = s - i
+		while i < s:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			i += 1
+			j = s - i
+			if NE == 0: break
+	else:
+		j = 4
+		i = s - j
+		while j >= 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	if NE == 0: break
+
+	
+0
+>>> NE=50
+>>> for s in range(2,10):
+	if s == 9:
+		j = 4
+		i = s - j
+		# nmax_es: número máximo de elétrons na subnível
+		# nes: número de elétrons na subnível
+		while j > 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	elif s <= 5:
+		i = 1
+		j = s - i
+		while i < s:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			i += 1
+			j = s - i
+			if NE == 0: break
+	else:
+		j = 4
+		i = s - j
+		while j >= 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	if NE == 0: break
+
+	
+2
+2
+6
+2
+6
+2
+10
+6
+2
+10
+2
+>>> NE = 6
+>>> for s in range(2,10):
+	if s == 9:
+		j = 4
+		i = s - j
+		# nmax_es: número máximo de elétrons na subnível
+		# nes: número de elétrons na subnível
+		while j > 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	elif s <= 5:
+		i = 1
+		j = s - i
+		while i < s:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			i += 1
+			j = s - i
+			if NE == 0: break
+	else:
+		j = 4
+		i = s - j
+		while j >= 1:
+			nmax_es = de.get((i,j),0)
+			if nmax_es != 0:
+				nes = nmax_es if (NE > nmax_es) else NE
+				NE -= nes
+				print(nes)
+			j -= 1
+			i = s - j
+			if NE == 0: break
+	if NE == 0: break
+
+	
+2
+2
+2
 >>> 
