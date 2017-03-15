@@ -7,3 +7,5 @@
 * [Capítulo 8: Listas &mdash; Aprenda Computação com Python v1.1 documentation](http://www3.ifrn.edu.br/~jurandy/fdp/doc/aprenda-python/capitulo_08.html#membros-de-uma-lista)
 * [Simple Python Turtle Graphics Game (Part 9) - YouTube](https://www.youtube.com/watch?v=_DB2bc8FScY)
 * [Dicionários &#8212; Como pensar como um Cientista da Computação: Edição Interativa em Python](https://panda.ime.usp.br/pensepy/static/pensepy/11-Dicionarios/dicionarios.html) (Matrizes esparsas)
+* [Diagrame :: Crie diagramas online. Compartilhe com sua equipe.](http://diagrame.com.br/)
+* [Lista de elementos químicos](https://pt.wikipedia.org/wiki/Lista_de_elementos_qu%C3%ADmicos)
