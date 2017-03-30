@@ -12,3 +12,4 @@
 * [24.5. turtle — Turtle graphics for Tk &mdash; Python 2.7.13 documentation](https://docs.python.org/2/library/turtle.html#turtle.onscreenclick)
 * [dictionary - Bugs drawing with turtle(python) using onkey() and dictionaries - Stack Overflow](http://stackoverflow.com/questions/15941070/bugs-drawing-with-turtlepython-using-onkey-and-dictionaries)
 * [Turtle in python- Trying to get the turtle to move to the mouse click position and print its coordinates - Stack Overflow](http://stackoverflow.com/questions/17864085/turtle-in-python-trying-to-get-the-turtle-to-move-to-the-mouse-click-position-a)
+* [The Architecture of Open Source Applications (Volume 2): Git](http://www.aosabook.org/en/git.html)
