@@ -9,3 +9,6 @@
 * [Dicionários &#8212; Como pensar como um Cientista da Computação: Edição Interativa em Python](https://panda.ime.usp.br/pensepy/static/pensepy/11-Dicionarios/dicionarios.html) (Matrizes esparsas)
 * [Diagrame :: Crie diagramas online. Compartilhe com sua equipe.](http://diagrame.com.br/)
 * [Lista de elementos químicos](https://pt.wikipedia.org/wiki/Lista_de_elementos_qu%C3%ADmicos)
+* [24.5. turtle — Turtle graphics for Tk &mdash; Python 2.7.13 documentation](https://docs.python.org/2/library/turtle.html#turtle.onscreenclick)
+* [dictionary - Bugs drawing with turtle(python) using onkey() and dictionaries - Stack Overflow](http://stackoverflow.com/questions/15941070/bugs-drawing-with-turtlepython-using-onkey-and-dictionaries)
+* [Turtle in python- Trying to get the turtle to move to the mouse click position and print its coordinates - Stack Overflow](http://stackoverflow.com/questions/17864085/turtle-in-python-trying-to-get-the-turtle-to-move-to-the-mouse-click-position-a)
